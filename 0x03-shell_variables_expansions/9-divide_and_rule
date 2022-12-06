@@ -1,2 +1,5 @@
 #!/bin/bash
-echo $((POWER / DIVIDE))
+POWER=42784
+DIVIDE=32
+z=$((POWER / DIVIDE))
+echo $z
